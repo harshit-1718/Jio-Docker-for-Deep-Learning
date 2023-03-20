@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="container pt-10">
+    <div class="row justify-content-md-center">
+        <div class="col-ml-10">
+            <h2>Your question was: </h2>
+            <p>{{question}}</p>
+            <h2>BERT's answer to this question is: </h2>
+            <p>{{answer}}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
